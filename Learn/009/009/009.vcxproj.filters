@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Class">
+      <UniqueIdentifier>{3abafdf2-2198-4292-b21a-3fd47dbaf0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\GameObject">
+      <UniqueIdentifier>{40eb3623-a97b-477d-b720-94d34bcb9f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\Shape">
+      <UniqueIdentifier>{b59bde8d-ddb7-4789-ba10-ca6c892b3840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Class">
+      <UniqueIdentifier>{2510b7c0-cb9e-427b-9ef5-f9a4143e002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Class\Shape">
+      <UniqueIdentifier>{d2f80dc1-a2c2-4e69-9679-b98e85d268f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Class\GameObject">
+      <UniqueIdentifier>{9825720e-da98-4c0f-8322-1db27da7119c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SolidRectangle.cpp">
+      <Filter>소스 파일\Class\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>소스 파일\Class\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스 파일\Class\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>소스 파일\Class\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Class\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>소스 파일\Class\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Class\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteMage.cpp">
+      <Filter>소스 파일\Class\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackMage.cpp">
+      <Filter>소스 파일\Class\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h">
+      <Filter>헤더 파일\Class\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>헤더 파일\Class\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>헤더 파일\Class\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidRectangle.h">
+      <Filter>헤더 파일\Class\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Class\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>헤더 파일\Class\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Class\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteMage.h">
+      <Filter>헤더 파일\Class\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackMage.h">
+      <Filter>헤더 파일\Class\GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
